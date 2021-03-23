@@ -1,0 +1,50 @@
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<sly data-sly-use.clientLib = "/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories = 'sampleOne.sideNav'}"></sly>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<div class = "container">
+
+	<div class="row">
+		<div class="col-sm-4 col-md-3 sidebar">
+   
+    <div class="list-group">
+        <span href="#" class="list-group-item" style = "background-color: #333">
+            <h5 style="color: ghostwhite;padding-top: 10px;">${properties.title}</h5>
+            
+        </span>
+        <a href="#" class="list-group-item" id = "comment">
+            <i class="fa fa-comment-o"></i> Comment
+        </a>
+        <a href="#" class="list-group-item" id = "search">
+            <i class="fa fa-search"></i> Search
+        </a>
+        <a href="#" class="list-group-item">
+            <i class="fa fa-user"></i> Users
+        </a>
+        <a href="#" class="list-group-item">
+            <i class="fa fa-folder-open-o"></i> Folders <span class="badge">14</span>
+        </a>
+    
+        <a href="#" class="list-group-item">
+            <i class="fa fa-envelope"></i> Mail
+        </a>
+   
+    </div>        
+</div>
+        <div class="col-sm-3  col-md-3">
+            <p id = "commentResponse"></p>
+        </div>
+        </div>
+    
+    
+</div>
+<script>
+
+    $("#comment").click(function(){
+        $("#commentResponse").append("hello");
+    });
+    
+console.log(${properties.title});
+    
+</script>
+<br>
+<br>

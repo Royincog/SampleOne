@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+    <sly data-sly-use.object = "sampleOne.core.models.SideNavigationModel"></sly>
+    <ul data-sly-list.categories = "${object.getCategorySizes}">
+    <li>${categories}</li>
+</body>
+</html>

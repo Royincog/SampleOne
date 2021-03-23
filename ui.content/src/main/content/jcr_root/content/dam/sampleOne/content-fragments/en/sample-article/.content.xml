@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="17b4be2b-99e1-4c37-8609-6dcb7f92a924">
+    <jcr:content
+        cq:name="sample-article"
+        cq:parentPath="/content/dam/sampleOne/content-fragments/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-03-01T15:40:31.366+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sample Article"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-03-01T15:40:31.367+05:30">
+        <data
+            cq:model="/conf/TemplateSampleOne/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                articleBody="&lt;p>&lt;b>Stary Night :&lt;/b>&lt;/p>&#xa;&lt;p>Starry Night is one of the most recognized pieces of art in the world. It is absolutely everywhere, too. It can be seen on coffee, mugs, t-shirts, towels, magnets, etc. Honestly, it sometimes feels as if the painting’s fame has exceeded that of its creator. It is a magnificent piece of art. That Starry Night resonates with so many people is a testament to how its beauty is timeless and universal.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                articleBody_x0040_ContentType="text/html"
+                articleBody_x0040_LastModified="{Date}2021-03-01T15:40:31.170+05:30"
+                articleName="Stary Night"
+                articleName_x0040_LastModified="{Date}2021-03-01T15:40:31.168+05:30"
+                authorName="Van Gogh"
+                authorName_x0040_LastModified="{Date}2021-03-01T15:40:31.169+05:30"
+                isAuthor="{Boolean}false"
+                isAuthor_x0040_LastModified="{Date}2021-03-01T15:40:31.171+05:30"
+                publishedDate="{Date}2021-03-01T15:38:00.000+05:30"
+                publishedDate_x0040_LastModified="{Date}2021-03-01T15:40:31.169+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

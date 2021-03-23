@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-03-19T22:26:48.417+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/TemplateSampleOne/settings/wcm/templates/whitepagetemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="whitePAge"
+        sling:resourceType="sampleOne/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2021-03-19T11:16:36.112+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <mytitle
+                jcr:created="{Date}2021-03-19T11:22:33.142+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-19T11:22:33.142+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sampleOne/components/content/mytitle"/>
+            <producttile
+                jcr:created="{Date}2021-03-19T11:25:39.711+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-19T11:25:39.711+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sampleOne/components/content/productTile"/>
+            <dbcomponent
+                jcr:created="{Date}2021-03-19T21:45:40.992+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-19T21:45:40.992+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sampleOne/components/content/dbComponent"/>
+        </root>
+    </jcr:content>
+</jcr:root>

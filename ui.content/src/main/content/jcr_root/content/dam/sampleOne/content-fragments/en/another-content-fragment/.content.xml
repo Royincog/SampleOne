@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f3011368-9527-4500-8cd0-357b27aa0729">
+    <jcr:content
+        cq:name="another-content-fragment"
+        cq:parentPath="/content/dam/sampleOne/content-fragments/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-03-05T11:54:11.554+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="another content fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-03-05T11:54:11.555+05:30">
+        <data
+            cq:model="/conf/TemplateSampleOne/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                articleBody="&lt;p>This is a hello world article&amp;nbsp;&lt;/p>&#xa;"
+                articleBody_x0040_ContentType="text/html"
+                articleBody_x0040_LastModified="{Date}2021-03-05T11:54:11.316+05:30"
+                articleName="Hello World"
+                articleName_x0040_LastModified="{Date}2021-03-05T11:54:11.315+05:30"
+                authorName="Roy"
+                authorName_x0040_LastModified="{Date}2021-03-05T11:54:11.315+05:30"
+                isAuthor="{Boolean}true"
+                isAuthor_x0040_LastModified="{Date}2021-03-05T11:54:11.317+05:30"
+                publishedDate="{Date}2021-03-05T11:53:00.000+05:30"
+                publishedDate_x0040_LastModified="{Date}2021-03-05T11:54:11.316+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
